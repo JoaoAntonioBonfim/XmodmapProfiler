@@ -38,7 +38,7 @@ python -m venv .venv
 
 Ativação do ambiente virtual:
 ```
-source .venv\bin\activate
+source .venv/bin/activate
 ```
 
 Instalação do Pillow
@@ -51,7 +51,7 @@ Opcionalmente compile com pyinstaller.
 pyinstaller --onefile TrayProfiler.py
 ```
 
-Mover o executal para a pasta principal.
+Mover o executável para a pasta principal.
 ```
 mv dist/TrayProfiler .
 ```
@@ -65,6 +65,7 @@ Crie uma pasta profiles/ e adicione seus layouts na pasta.
 ```
 mkdir profiles/
 ```
+
 Saindo da venv.
 ```
 deactivate

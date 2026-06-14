@@ -20,7 +20,7 @@ Antes de utilizar, você deve ter atender os seguintes requisitos:
 ## Instalação
 Instalando todas dependências necessárias, é recomendável que você utilize um ambiente virtual python (venv) para instalações de pacotes com pip, infelizmente pystray está com um problema de dependência e não esta funcionado quando instalado em uma venv, então instalar o pacote globalmente resolve o problema.
 
-Clone o projeto e entre na pasta
+Clone o projeto e entre na pasta.
 ```
 git clone https://github.com/JoaoAntonioBonfim/XmodmapProfiler.git
 cd XmodmapProfiler
@@ -38,7 +38,7 @@ python -m venv .venv
 
 Ativação do ambiente virtual:
 ```
-.venv\Scripts\activate
+source .venv\bin\activate
 ```
 
 Instalação do Pillow
@@ -48,17 +48,26 @@ pip install Pillow
 
 Opcionalmente compile com pyinstaller.
 ```
-pyinstaller --onefile trayProfiler.py
+pyinstaller --onefile TrayProfiler.py
+```
+
+Mover o executal para a pasta principal.
+```
+mv dist/TrayProfiler .
 ```
 
 E de as permissões de execução com chmod.
 ```
-chmod +x trayProfiler
+chmod +x TrayProfiler
 ```
 
-Crie uma pasta profiles/ e mantenha no mesmo diretório do executável.
+Crie uma pasta profiles/ e adicione seus layouts na pasta.
 ```
 mkdir profiles/
+```
+Saindo da venv.
+```
+deactivate
 ```
 
 ## Como usar 

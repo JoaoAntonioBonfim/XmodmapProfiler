@@ -1,3 +1,4 @@
+#!.venv/bin/python
 import pystray
 from pystray import MenuItem as item
 import PIL.Image
@@ -12,7 +13,7 @@ os.environ['PYSTRAY_BACKEND'] = 'gtk'
 
 image = PIL.Image.open("keyboard.png")
 
-profiles_folder = ("profiles/")
+profiles_folder = Path("profiles/")
 files = sorted(list(profiles_folder.iterdir()))
 
 def on_clicked(text):

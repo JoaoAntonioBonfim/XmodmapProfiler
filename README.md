@@ -3,6 +3,9 @@
 # XmodmapProfiler
  - Aplicação em python para alteração de layout X11 usando xmodmap pela área de notificação. 
 
+## Como usar xmodmap
+[Clique aqui](https://www.linkedin.com/feed/update/urn:li:activity:7472046742230888448/) para conhecer e começar usar o xmodmap.
+
 ## Exemplos de uso
 Essa aplicação é melhor utilizada caso você não possa, ou seja difícil alterar o layout do seu teclado, ou já use vários layouts com xmodmap.
 Você pode criar layouts para outras línguas, para jogos, facilitar shortcuts em aplicativos, para utilizar seu teclado como um mouse.

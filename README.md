@@ -1,4 +1,4 @@
-![[keyboard.png|200x200]]
+![Xmodmap logo](keyboard.png)
 
 # XmodmapProfiler
 -----------------
@@ -72,4 +72,4 @@ mkdir profiles/
 - Adicione seus arquivos de layout .xmodmap em "profiles/" 
 - Clique no ícone na área de notificação e selecione o layout desejado.
 
-![[Exempro de uso.png]]
+![Exempro de uso do Xmodmap](Exempro de uso.png)
